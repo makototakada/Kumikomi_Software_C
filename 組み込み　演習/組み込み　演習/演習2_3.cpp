@@ -5,7 +5,7 @@ int main(void)
 {
 	unsigned int x, y, z;
 
-	printf("0`%u‚Ì®”‚ğ‚Q‚Â“ü—Í\n", UINT_MAX);
+	printf("0ï½%uã®æ•´æ•°ã‚’ï¼’ã¤å…¥åŠ›\n", UINT_MAX);
 	scanf_s("%u%u", &x, &y);
 
 	z = x & y;
@@ -19,5 +19,6 @@ int main(void)
 
 	return 0;
 }
-//  %u ‚ÍAunsignedŒ^‚É‘Î‚·‚é‘®w’è•¶š—ñB
-//  UINT_MAX ‚Í limits.h ‚Ì’†‚Åƒ}ƒNƒ’è‹`‚³‚êAunsigned intŒ^‚ÌÅ‘å’l‚ğ•\‚·B
+//  %u ã¯ã€unsignedå‹ã«å¯¾ã™ã‚‹æ›¸å¼æŒ‡å®šæ–‡å­—åˆ—ã€‚
+//  UINT_MAX ã¯ limits.h ã®ä¸­ã§ãƒã‚¯ãƒ­å®šç¾©ã•ã‚Œã€unsigned intå‹ã®æœ€å¤§å€¤ã‚’è¡¨ã™ã€‚
+//ã€€unsigned ç¬¦å·ãªã—ã€€0ï½255(æ ¼ç´ç¯„å›²) â€»ç¬¦å·ã‚ã‚Šã ã¨ -128ï½127
