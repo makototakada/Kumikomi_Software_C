@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ビット論理和", "ビット論理和\ビット論理和.vcxproj", "{0E702F55-9D5C-4D9B-8BCA-F39A404BE211}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E702F55-9D5C-4D9B-8BCA-F39A404BE211}.Debug|x64.ActiveCfg = Debug|x64
+		{0E702F55-9D5C-4D9B-8BCA-F39A404BE211}.Debug|x64.Build.0 = Debug|x64
+		{0E702F55-9D5C-4D9B-8BCA-F39A404BE211}.Debug|x86.ActiveCfg = Debug|Win32
+		{0E702F55-9D5C-4D9B-8BCA-F39A404BE211}.Debug|x86.Build.0 = Debug|Win32
+		{0E702F55-9D5C-4D9B-8BCA-F39A404BE211}.Release|x64.ActiveCfg = Release|x64
+		{0E702F55-9D5C-4D9B-8BCA-F39A404BE211}.Release|x64.Build.0 = Release|x64
+		{0E702F55-9D5C-4D9B-8BCA-F39A404BE211}.Release|x86.ActiveCfg = Release|Win32
+		{0E702F55-9D5C-4D9B-8BCA-F39A404BE211}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DACE4E6-3B85-4435-8E68-C842FE30C544}
+	EndGlobalSection
+EndGlobal
