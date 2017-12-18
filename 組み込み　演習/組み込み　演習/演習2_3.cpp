@@ -1,19 +1,24 @@
 #include <stdio.h>
+#include <limits.h>
 
-void andTest(int a, int b);
+int main(void)
+{
+	unsigned int x, y, z;
 
-int main(void) {
+	printf("0～%uの整数を２つ入力\n", UINT_MAX);
+	scanf_s("%u%u", &x, &y);
 
-	andTest(0x0f, 0x01);
-	andTest(0x0f, 0x0f);
-	andTest(0x0f, 0x00);
-	andTest(0x0f, 0x07);
+	z = x & y;
+	printf("%u(%#x) AND %u(%#x) = %#x\n", x, x, y, y, z);
 
+	z = x | y;
+	printf("%u(%#x) OR  %u(%#x) = %#x\n", x, x, y, y, z);
+
+	z = x ^ y;
+	printf("%u(%#x) XOR %u(%#x) = %#x\n", x, x, y, y, z);
 
 	return 0;
 }
-
-void andTest(int a, int b) {
-
-	printf("0x%02x & 0x%02x => 0x%02x\n", a, b, (a & b));
-}
+//  %u は、unsigned型に対する書式指定文字列。
+//  UINT_MAX は limits.h の中でマクロ定義され、unsigned int型の最大値を表す。
+//　unsigned 符号なし　0～255(格納範囲) ※符号ありだと -128～127
