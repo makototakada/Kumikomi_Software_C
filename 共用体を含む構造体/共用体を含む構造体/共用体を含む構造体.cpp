@@ -54,6 +54,7 @@ int main(void) {
 
 			printf("数学：%3d 英語：%3d\n",
 				cls[i].sub.s2.math, cls[i].sub.s2.english);
+			//構造体の中に共用体を含む場合、全てのタグとメンバをつなげて記述する必要がある。
 
 		}
 
