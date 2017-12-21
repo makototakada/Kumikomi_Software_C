@@ -1,4 +1,4 @@
-/*#include <stdio.h>
+#include <stdio.h>
 
 int myprintData(size_t, unsigned long);
 
@@ -65,4 +65,4 @@ int myprintData(size_t n, unsigned long data) {
 	}
 
 	return (n);
-}*/
+}

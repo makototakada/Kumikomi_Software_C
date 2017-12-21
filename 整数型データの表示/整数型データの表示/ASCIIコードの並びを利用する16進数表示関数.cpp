@@ -1,4 +1,4 @@
-/*#include <stdio.h>
+#include <stdio.h>
 
 #define BASE 16
 
@@ -45,4 +45,4 @@ void printData(char data) {
 
 	return;
 
-}*/
+}

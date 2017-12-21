@@ -1,4 +1,4 @@
-/*#include <stdio.h>
+#include <stdio.h>
 
 #define ERROR_RETURN  -1
 #define SIZE_1BYTE     1
@@ -105,4 +105,4 @@ int myprintData(size_t n, unsigned long data, const char tbl[]) {
 
 	return (n);
 
-}*/
+}
