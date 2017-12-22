@@ -1,4 +1,4 @@
-/*#include <stdio.h>
+#include <stdio.h>
 
 #define EOS ('\0')
 size_t mystrlen(const char *);
@@ -34,4 +34,4 @@ size_t mystrlen(const char *s) {
 	}
 
 	return (len);
-}*/
+}

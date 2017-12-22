@@ -1,4 +1,4 @@
-/*#include <stdio.h>
+#include <stdio.h>
 #include <string.h>
 
 #define EOS ('\0')
@@ -33,4 +33,4 @@ int main(void) {
 	printf("strcmp(str9, str10) returns %d\n", n);
 
 	return 0;
-}*/
+}

@@ -1,4 +1,4 @@
-/*#include <stdio.h>
+#include <stdio.h>
 #include <string.h>
 
 struct what {
@@ -25,4 +25,4 @@ int main(void) {
 
 
 	return 0;
-}*/
+}

@@ -1,4 +1,4 @@
-/*#include <stdio.h>
+#include <stdio.h>
 
 #define EOS ('\0')
 
@@ -39,4 +39,4 @@ char *mystrcpy(char *s1, const char *s2) {
 
 	return (s1);
 
-}*/
+}

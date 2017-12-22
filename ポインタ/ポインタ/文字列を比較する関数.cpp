@@ -1,4 +1,4 @@
-/*#include <stdio.h>
+#include <stdio.h>
 
 #define EOS ('\0')
 
@@ -55,4 +55,4 @@ int mystrcmp(const char *s1, const char *s2) {
 
 	return((*p1) - (*p2));
 
-}*/
+}

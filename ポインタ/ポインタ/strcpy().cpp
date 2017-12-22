@@ -1,4 +1,4 @@
-/*#include <stdio.h>
+#include <stdio.h>
 #include <string.h>
 
 int main(void) {
@@ -20,4 +20,4 @@ int main(void) {
 	printf("%02x%02x%02x%02x%02x%02x%02x\n", str5[0], str5[1], str5[2], str5[3], str5[4], str5[5], str5[6]);
 
 	return 0;
-}*/
+}
