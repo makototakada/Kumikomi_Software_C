@@ -5,10 +5,10 @@
 
 struct addressSheet {
 
-	char name[BOOKSIZE];
+	const char *name;
 	int group;
-	char phone[BOOKSIZE];
-	char address[BOOKSIZE];
+	const char *phone;
+	const char *address;
 	int birthday[BIRDTHDAY_SIZE];
 
 };
@@ -21,24 +21,24 @@ struct addressSheet addressBook[BOOKSIZE] = {
 
 };
 
-void printSheet(struct addressSheet);
+void printSheet(struct addressSheet *);
 
 int main(void) {
 
-	printSheet(addressBook[0]);
-	printSheet(addressBook[1]);
-	printSheet(addressBook[2]);
+	printSheet(&addressBook[0]);
+	printSheet(&addressBook[1]);
+	printSheet(&addressBook[2]);
 
 	return 0;
 }
 
-void printSheet(struct addressSheet sheet) {
+void printSheet(struct addressSheet *sheet) {
 
-	printf("Name：\t%s\n", sheet.name);
-	printf("Group：\t%d\n", sheet.group);
-	printf("Tel：\t%s\n", sheet.phone);
-	printf("Address：\t%s\n", sheet.address);
-	printf("Birthday：\t%d/%d/%d\n", sheet.birthday[0], sheet.birthday[1], sheet.birthday[2]);
+	printf("Name：\t%s\n", sheet->name);
+	printf("Group：\t%d\n", sheet->group);
+	printf("Tel：\t%s\n", sheet->phone);
+	printf("Address：\t%s\n", sheet->address);
+	printf("Birthday：\t%d/%d/%d\n", sheet->birthday[0], sheet->birthday[1], sheet->birthday[2]);
 
 	return;
 }
