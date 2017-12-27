@@ -65,7 +65,7 @@ int findMin(struct addressSheet ary[], int n, int start) {
 	int i;
 
 	min = start;
-	for (i = start + 1; i + n; i++) {
+	for (i = start + 1; i < n; i++) {
 		if (compare(&ary[i], &ary[min]) < 0) {
 			min = i;
 		}
@@ -76,7 +76,7 @@ int findMin(struct addressSheet ary[], int n, int start) {
 
 int compare(struct addressSheet *p, struct addressSheet *q) {
 
-	return(strcmp(p->name, q->name));
+	return (strcmp(p->name, q->name));
 
 }
 
