@@ -1,6 +1,6 @@
-#include <stdio.h>
+/*#include <stdio.h>
 
-int print1(const char *, unsigned long int);
+int print1(const char *, unsigned long);
 int printIntData(char, size_t, char, unsigned long);
 
 // fmtF–¢g—p(«—ˆ‚Ö‚ÌŠg’£‚Ì‚½‚ß‚Éˆø”‚Æ‚µ‚Ä“ü‚ê‚Ä‚¨‚­)
@@ -501,4 +501,4 @@ int myprintData(size_t n, unsigned long data, const unsigned char tbl[], int sup
 
 	return(num);
 
-}
+}*/
