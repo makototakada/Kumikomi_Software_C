@@ -1,4 +1,5 @@
 /*2‚Â‚Ì“Yš‚Ì”z—ñ‚Ì—v‘f‚ğŒğŠ·‚·‚éŠÖ”*/
+
 #include <stdio.h>
 
 #define ARY_SIZE 10

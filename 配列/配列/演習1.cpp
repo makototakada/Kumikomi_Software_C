@@ -1,3 +1,4 @@
+
 /*”z—ñ‚ÉŠi”[‚³‚ê‚½Ž©‘R”‚ÌÅ‘å’l‚ð‹‚ß‚é*/
 #include <stdio.h>
 

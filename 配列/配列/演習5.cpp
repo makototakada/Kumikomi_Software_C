@@ -1,4 +1,5 @@
 /*—×Ú‚·‚é‹æ‰æ‚ðŒ©‚Â‚¯A•]‰¿’l‚ð—^‚¦‚éŠÖ”*/
+
 #include <stdio.h>
 
 #define COLUMN_SIZE 5

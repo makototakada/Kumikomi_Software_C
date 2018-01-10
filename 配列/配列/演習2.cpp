@@ -1,6 +1,7 @@
 /*Å¬‚Ì”z—ñ‚Ì“Yš‚ğ–ß‚è’l‚Æ‚µ‚Ä•Ô‚·ŠÖ”*/
 #include <stdio.h>
 
+
 #define ARY_SIZE 10
 
 int iary[ARY_SIZE] = { 5, 30, 10, 1, 25, 15, 7, 10, 31, 13 };
