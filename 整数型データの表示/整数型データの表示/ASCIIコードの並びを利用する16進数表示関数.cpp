@@ -10,7 +10,7 @@ int main(void) {
 
 	printData(1);
 	printData(3);
-	printData(5); 
+	printData(5);
 	printData(7);
 	printData(9);
 	printData(11);

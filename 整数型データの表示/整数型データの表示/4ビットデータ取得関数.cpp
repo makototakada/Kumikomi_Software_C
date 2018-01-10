@@ -27,7 +27,7 @@ int myprintData(size_t n, unsigned long data) {
 
 	if (n == 1) {
 
-		c = (unsigned char) data;
+		c = (unsigned char)data;
 		putchar(hexLowerCase[c >> 4]);
 		putchar(hexLowerCase[c & MASK4BITS]);
 
