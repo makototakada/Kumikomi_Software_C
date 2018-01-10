@@ -1,5 +1,4 @@
 /*配列の要素を昇順にソートする関数*/
-
 #include <stdio.h>
 
 #define ARY_SIZE 10

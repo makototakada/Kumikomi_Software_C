@@ -1,5 +1,4 @@
-﻿
-#include <stdio.h>
+﻿#include <stdio.h>
 
 #define COLUMN_SIZE 5
 #define ROW_SIZE 6
