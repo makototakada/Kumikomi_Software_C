@@ -51,25 +51,25 @@ int print1(const char *format, unsigned long data) {
 
 		switch (c) {
 
-			case '%':
-				if (numConversion != 0) {
+		case '%':
+			if (numConversion != 0) {
 
-					return(ERROR_RETURN);
+				return(ERROR_RETURN);
 
-				}
-				ret = outputConversion(p, data, &p);
-				numConversion++;
-				if (ret < 0) {
+			}
+			ret = outputConversion(p, data, &p);
+			numConversion++;
+			if (ret < 0) {
 
-					return(ERROR_RETURN);
+				return(ERROR_RETURN);
 
-				}
-				num += ret;
-				break;
-			default:
-				putchar(c);
-				num++;
-				break;
+			}
+			num += ret;
+			break;
+		default:
+			putchar(c);
+			num++;
+			break;
 
 		}
 
@@ -95,9 +95,7 @@ int outputConversion(char *format, unsigned long data, char **next) {
 
 #if 0
 	if ((c = *p++) != '%') {
-
 		return(ret);
-
 	}
 #endif
 

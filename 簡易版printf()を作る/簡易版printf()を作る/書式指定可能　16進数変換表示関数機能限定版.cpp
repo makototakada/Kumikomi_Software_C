@@ -127,16 +127,16 @@ int print1(const char *format, unsigned long data) {
 
 		switch (c) {
 
-			case 'x':
-				printIntData(flag, n, HEX_LOWERCASE, data);
-				ret = 1;
-				break;
-			case 'X':
-				printIntData(flag, n, HEX_UPPERCASE, data);
-				ret = 1;
-				break;
-			default:
-				break;
+		case 'x':
+			printIntData(flag, n, HEX_LOWERCASE, data);
+			ret = 1;
+			break;
+		case 'X':
+			printIntData(flag, n, HEX_UPPERCASE, data);
+			ret = 1;
+			break;
+		default:
+			break;
 
 		}
 
