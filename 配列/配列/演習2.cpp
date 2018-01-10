@@ -20,7 +20,7 @@ int main(void) {
 	return 0;
 }
 
-int findMin(int ary[], int n, int start){
+int findMin(int ary[], int n, int start) {
 
 	int min;
 	int i;

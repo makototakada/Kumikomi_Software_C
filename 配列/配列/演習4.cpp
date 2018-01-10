@@ -13,8 +13,8 @@ int main(void) {
 
 	int i, j;
 
-	for (i = 0; i < ARY_SIZE-1; i++) {
-		
+	for (i = 0; i < ARY_SIZE - 1; i++) {
+
 		j = findMin(iary, ARY_SIZE, i);
 		swap(iary, i, j);
 	}
