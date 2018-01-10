@@ -42,10 +42,10 @@ int mystrncmp(const char s1[], const char s2[], size_t n) {
 	unsigned char c2 = EOS;
 	int i;
 
-	for (i = 0; i < (int) n; i++) {
+	for (i = 0; i < (int)n; i++) {
 
-		c1 = (unsigned char) s1[i];
-		c2 = (unsigned char) s2[i];
+		c1 = (unsigned char)s1[i];
+		c2 = (unsigned char)s2[i];
 
 		if ((c1 == EOS) || (c1 != c2)) {
 
