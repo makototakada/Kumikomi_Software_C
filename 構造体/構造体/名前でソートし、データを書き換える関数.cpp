@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <string.h>
 
 #define BIRDTHAY_SIZE 3
@@ -18,10 +18,10 @@ struct addressSheet {
 
 struct addressSheet addressBook[BOOKSIZE] = {
 
-	{"Mary", 2, "075-123-1232",  "Aneyakouji,Shimogyo", {1983, 12,  1}},
-	{"John", 1, "075-123-2135",     "Rokkaku,Shimogyo", {1978,  5, 17}},
-	{ "Tom", 3, "075-123-1234", "Takoyakushi,Shimogyo", {1980,  1, 15}},
-	{ "Sam", 1, "075-321-2214",     "Nishiki,Shimogyo", {1979,  6, 15}}
+	{ "Mary", 2, "075-123-1232",  "Aneyakouji,Shimogyo",{ 1983, 12,  1 } },
+{ "John", 1, "075-123-2135",     "Rokkaku,Shimogyo",{ 1978,  5, 17 } },
+{ "Tom", 3, "075-123-1234", "Takoyakushi,Shimogyo",{ 1980,  1, 15 } },
+{ "Sam", 1, "075-321-2214",     "Nishiki,Shimogyo",{ 1979,  6, 15 } }
 
 };
 
@@ -94,11 +94,11 @@ void swap(struct addressSheet ary[], int i, int j) {
 
 void printSheet(struct addressSheet *sheet) {
 
-	printf("NameF\t%s\n", sheet->name);
-	printf("GroupF\t%d\n", sheet->group);
-	printf("TelF\t%s\n", sheet->phone);
-	printf("AddressF\t%s\n", sheet->address);
-	printf("BirthdayF\t%d/%d/%d", sheet->birthday[0], sheet->birthday[1], sheet->birthday[2]);
+	printf("NameÂF\t%s\n", sheet->name);
+	printf("GroupÂF\t%d\n", sheet->group);
+	printf("TelÂF\t%s\n", sheet->phone);
+	printf("AddressÂF\t%s\n", sheet->address);
+	printf("BirthdayÂF\t%d/%d/%d", sheet->birthday[0], sheet->birthday[1], sheet->birthday[2]);
 
 	return;
 }
